@@ -7,6 +7,7 @@ class Madmin extends CI_Model{
     function verify_login(){
 
         //print_r($_POST);die;
+      //just a small edit
 
         $rs = $this->db
               ->select('id,concat(firstname, " ", lastname) as name,username', false)
